@@ -40,4 +40,4 @@ Descrição – Nova API: Api de busca de livros e todos os dados relacionados, 
 </br>
 <p align="center">
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/78f751d4-7b4f-4aa2-8d13-9a450bce10bf.png"/>
-</p>p
+</p>
