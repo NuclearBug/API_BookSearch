@@ -8,10 +8,21 @@ Descrição das funcionalidades já existentes ou previstas: Filtrar pesquisas p
 Descrição da API: Kitsu é uma plataforma moderna de descoberta que ajuda a manter-se atualizado ao anime que está interessado e descobrir novos animes. 
 Tema da nova API: Livros. 
 Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de páginas, preço, avaliação, etc. 
-
-Modelo Lógico:
-![Diagrama_De_Classes](https://github.com/NuclearBug/API_BookSearch/assets/71195558/8273077d-ba00-4dd7-9dee-f29169b3cc56)  
-Modelo Físico:
+</br>
+</br>
+# Modelo Lógico:
+</br>
+</br>
+![Diagrama_De_Classes](https://github.com/NuclearBug/API_BookSearch/assets/71195558/8273077d-ba00-4dd7-9dee-f29169b3cc56) 
+</br>
+</br>
+# Modelo Físico:
+</br>
+</br>
 ![Modelo_Logico (1)](https://github.com/NuclearBug/API_BookSearch/assets/71195558/956209d6-1411-43ec-a95e-ae730cbe44b8)
-Diagrama de Classes;
+</br>
+</br>
+# Diagrama de Classes:
+</br>
+</br>
 ![Diagrama_De_Classes](https://github.com/NuclearBug/API_BookSearch/assets/71195558/9fc069c0-c4c6-49e3-b45f-0c9e31df3e63)
