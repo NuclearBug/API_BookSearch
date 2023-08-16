@@ -13,7 +13,7 @@ Descrição – Nova API: Api de busca de livros e todos os dados relacionados, 
 # Modelo Lógico:
 </br>
 </br>
-<img src="".png"/>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/701687c8-224e-4b37-8214-cfedba09e767.png"/>
 </br>
 </br>
 # Modelo Físico:
