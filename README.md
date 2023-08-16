@@ -21,7 +21,7 @@ Descrição – Nova API: Api de busca de livros e todos os dados relacionados, 
 </br>
 </br>
 <p align="center">
-<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/701687c8-224e-4b37-8214-cfedba09e767.png"/>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/d47bb838-1660-4523-b590-7226e60a18ab.png"/>
 </p>
 </br>
 </br>
