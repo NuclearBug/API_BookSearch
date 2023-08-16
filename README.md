@@ -2,10 +2,10 @@
 API para pesquisa de livros e suas informações.
 
 Integrante: Felipe Cipriano de Andrade Ferreira. 
-Link da API externa: https://kitsu.docs.apiary.io/. 
-Tema da API externa: Animes. 
-Descrição das funcionalidades já existentes ou previstas: Mostra  
-Descrição da API: Filmes.
+Link da API externa: https://kitsu.docs.apiary.io/](https://developer.themoviedb.org/reference/intro/getting-started. 
+Tema da API externa: Filmes e séries. 
+Descrição das funcionalidades já existentes ou previstas: Mostra todos os tipos de dados relacionados ao tema.  
+Descrição da API: Essa API sobre pode ser usada para obter informações sobre todos.
 Tema da nova API: Livros. 
 Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de páginas, preço, avaliação, etc. 
 </br>
