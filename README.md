@@ -9,7 +9,7 @@ Tema da API externa: Filmes e séries.
 <br>
 Descrição das funcionalidades já existentes ou previstas: Mostra todos os tipos de dados relacionados ao tema.  
 <br>
-Descrição da API: Essa API sobre pode ser usada para obter informações sobre todos.
+Descrição da API: Essa API sobre pode ser usada para obter informações.
 <br>
 Tema da nova API: Livros. 
 <br>
