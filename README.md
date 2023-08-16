@@ -9,6 +9,7 @@ Descrição da API: Kitsu é uma plataforma moderna de descoberta que ajuda a ma
 Tema da nova API: Livros. 
 Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de páginas, preço, avaliação, etc. 
 
-![Diagrama_De_Classes](https://github.com/NuclearBug/API_BookSearch/assets/71195558/8273077d-ba00-4dd7-9dee-f29169b3cc56)
+![Diagrama_De_Classes](https://github.com/NuclearBug/API_BookSearch/assets/71195558/8273077d-ba00-4dd7-9dee-f29169b3cc56)  
+
 
 ![Modelo_Logico (1)](https://github.com/NuclearBug/API_BookSearch/assets/71195558/956209d6-1411-43ec-a95e-ae730cbe44b8)
