@@ -1,7 +1,7 @@
 # API_BookSearch
 API para pesquisa de livros e suas informações.
 
-<b>Integrante:<b> Felipe Cipriano de Andrade Ferreira. 
+Integrante: Felipe Cipriano de Andrade Ferreira. 
 Link da API externa: https://kitsu.docs.apiary.io/. 
 Tema da API externa: Animes. 
 Descrição das funcionalidades já existentes ou previstas: Filtrar pesquisas por nome, obter dados de nome em outras línguas, sinopse, número de capítulos, número de episódios, classificação, dentre outros dados. 
