@@ -1,19 +1,18 @@
-# API_BookSearchTeste
+# API_BookSearch
 API para pesquisa de livros e suas informações.
 
 Integrante: Felipe Cipriano de Andrade Ferreira.
 <br>
-Link da API externa: https://kitsu.docs.apiary.io/](https://developer.themoviedb.org/reference/intro/getting-started. 
+Link da API externa: https://rickandmortyapi.com/documentation 
 <br>
-Tema da API externa: Filmes e séries. 
+Tema da API externa: A série animada de TV, Rick And Morty. 
 <br>
-Descrição das funcionalidades já existentes ou previstas: Mostra todos os tipos de dados relacionados ao tema.  
+Descrição das funcionalidades já existentes ou previstas: Mostra dados de todos os personagens pesquisados, assim como fornece imagens dos mesmos e também permite a pesquisa de planetas apresentados na série.  
 <br>
-Descrição da API: Essa API sobre pode ser usada para obter informações.
 <br>
-Tema da nova API: Livros. 
+Tema da nova API: Livros (foco em fictícios -  relacionados a série Rick And Morty). 
 <br>
-Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de páginas, preço, avaliação, etc. 
+Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de capítulos, número de páginas, avaliação, etc. 
 </br>
 </br>
 
