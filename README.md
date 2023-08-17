@@ -1,4 +1,4 @@
-# API_BookSearch
+# API_BookSearchTeste
 API para pesquisa de livros e suas informações.
 
 Integrante: Felipe Cipriano de Andrade Ferreira.
