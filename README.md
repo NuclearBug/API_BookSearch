@@ -23,6 +23,21 @@ DELETE - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
 
 
 <br>
+Exemplo de arquivo JSON a ser enviado pelo método POST: 
+<br>
+{
+  "id":4,
+  "nome":"Teste livro",
+  "sinopse":"Era uma vez...",
+  "Class":"Romance - Sci-fi",
+  "numCap":22,
+  "numPag":404,
+  "autor":"Demond",
+  "favorito":true
+}
+
+
+<br>
 Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de capítulos, número de páginas, avaliação, etc. 
 </br>
 </br>
