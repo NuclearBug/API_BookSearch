@@ -25,16 +25,16 @@ DELETE - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
 <br>
 Exemplo de arquivo JSON a ser enviado pelo método POST: 
 <br>
-{ </br>
-  "id":4, </br>
-  "nome":"Teste livro", </br>
-  "sinopse":"Era uma vez...", </br>
-  "Class":"Romance - Sci-fi", </br>
-  "numCap":22, </br>
-  "numPag":404, </br>
-  "autor":"Demond", </br>
-  "favorito":true </br>
-}
+{ <br>
+  "id":4, <br>
+  "nome":"Teste livro", <br>
+  "sinopse":"Era uma vez...", <br>
+  "Class":"Romance - Sci-fi", <br>
+  "numCap":22, <br>
+  "numPag":404, <br>
+  "autor":"Demond", <br>
+  "favorito":true <br>
+} <br>
 
 
 <br>
