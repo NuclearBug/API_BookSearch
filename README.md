@@ -15,11 +15,11 @@ Tema da nova API: Livros (foco em fictícios -  relacionados a série Rick And M
 Endpoints da API BookSearch: 
 <br>
 GET - https://web-hdz6zoncyp736.azurewebsites.net/books </br>
-GET - https://web-hdz6zoncyp736.azurewebsites.net/books/{id}
-GET - https://web-hdz6zoncyp736.azurewebsites.net/books/{nome}
-POST - https://web-hdz6zoncyp736.azurewebsites.net/books
-PUT - https://web-hdz6zoncyp736.azurewebsites.net/books/{id}
-DELETE - https://web-hdz6zoncyp736.azurewebsites.net/books/{id}
+GET - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
+GET - https://web-hdz6zoncyp736.azurewebsites.net/books/{nome} </br>
+POST - https://web-hdz6zoncyp736.azurewebsites.net/books </br>
+PUT - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
+DELETE - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
 
 
 <br>
