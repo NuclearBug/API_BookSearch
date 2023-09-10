@@ -40,21 +40,6 @@ Demonstração dos métodos de requisição:
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/bc7de445-465b-4958-a838-f1a17b1d8ade.png"/>
 
 <br>
-Exemplo de arquivo JSON a ser enviado pelo método POST: 
-<br>
-{ <br>
-  "id":4, <br>
-  "nome":"Teste livro", <br>
-  "sinopse":"Era uma vez...", <br>
-  "Class":"Romance - Sci-fi", <br>
-  "numCap":22, <br>
-  "numPag":404, <br>
-  "autor":"Demond", <br>
-  "favorito":true <br>
-} <br>
-
-
-<br>
 Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de capítulos, número de páginas, avaliação, etc. 
 </br>
 </br>
