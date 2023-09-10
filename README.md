@@ -11,15 +11,6 @@ Descrição das funcionalidades já existentes ou previstas: Mostra dados de tod
 <br>
 <br>
 Tema da nova API: Livros (foco em fictícios -  relacionados a série Rick And Morty). 
-<br>
-Endpoints da API BookSearch: 
-<br>
-GET - https://web-hdz6zoncyp736.azurewebsites.net/books </br>
-GET - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
-GET - https://web-hdz6zoncyp736.azurewebsites.net/books/{nome} </br>
-POST - https://web-hdz6zoncyp736.azurewebsites.net/books </br>
-PUT - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
-DELETE - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
 
 <br>
 Demonstração dos métodos de requisição:
