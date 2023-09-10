@@ -1,4 +1,6 @@
-﻿namespace BookAPI
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace BookSearchAPI.Models
 {
     public class Livro
     {
