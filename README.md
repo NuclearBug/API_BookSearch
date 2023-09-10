@@ -21,6 +21,32 @@ POST - https://web-hdz6zoncyp736.azurewebsites.net/books </br>
 PUT - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
 DELETE - https://web-hdz6zoncyp736.azurewebsites.net/books/{id} </br>
 
+<br>
+Demonstração dos métodos de requisição:
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/eab1a8a5-080e-4094-bceb-0f105ad80e1a.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/3c6a369d-35db-4423-97b8-5d0c0d4a3d88.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/f5f15fde-417d-40eb-ab76-a17f6ea028de.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/37ad41a8-3fbd-408c-9701-e67ced86e195.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/f7a4aae6-a79e-4935-9a56-bcf775ca5d31.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/1d033f4e-c156-42f1-8a10-62e720fe4923.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/d401e162-2a73-4538-b74b-2cbf3e3a2a51.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/8bdf581d-43da-4ef5-9915-697b94056efc.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/3a212acb-5ae0-4e94-aaf6-6fe528be3aaa.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/e6eaa7dd-3ad5-40bd-a73c-7747d44ef9ae.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/8359a533-ceef-40a9-aace-738aba3f043c.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/bc7de445-465b-4958-a838-f1a17b1d8ade.png"/>
 
 <br>
 Exemplo de arquivo JSON a ser enviado pelo método POST: 
