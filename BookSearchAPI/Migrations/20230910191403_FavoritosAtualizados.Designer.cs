@@ -2,6 +2,7 @@
 using BookSearchAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookSearchAPI.Migrations
 {
     [DbContext(typeof(LivroDb))]
-    partial class LivroDbModelSnapshot : ModelSnapshot
+    [Migration("20230910191403_FavoritosAtualizados")]
+    partial class FavoritosAtualizados
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.0");

@@ -1,6 +1,5 @@
 ﻿using BookSearchAPI.Models;
 using Microsoft.EntityFrameworkCore;
-using static BookSearchAPI.Models.Livro;
 
 namespace BookSearchAPI.Models
 {
@@ -8,11 +7,7 @@ namespace BookSearchAPI.Models
     {
         public LivroDb(DbContextOptions options) : base(options) { }
         public DbSet<Livro> Livros { get; set; } = null!;
-        /*
-        public LivroDb(DbContextOptions<LivroDb> options)
-            : base(options) { }
-
-        public DbSet<Livro> Livros => Set<Livro>();
-        */
+        public DbSet<Usuario> Usuarios { get; set; } = null!;
+        public DbSet<Favorito> Favoritos { get; set; } = null!;
     }
 }

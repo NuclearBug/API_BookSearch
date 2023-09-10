@@ -2,6 +2,7 @@
 using BookSearchAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,27 +10,23 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookSearchAPI.Migrations
 {
     [DbContext(typeof(LivroDb))]
-    partial class LivroDbModelSnapshot : ModelSnapshot
+    [Migration("20230910185916_AdicionarFavoritos")]
+    partial class AdicionarFavoritos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.0");
 
             modelBuilder.Entity("BookSearchAPI.Models.Favorito", b =>
                 {
-                    b.Property<int>("Id_favorito")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Id_livro")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("Id_favorito");
+                    b.HasKey("Email", "Id_livro");
 
                     b.ToTable("Favoritos");
                 });

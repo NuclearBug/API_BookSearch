@@ -31,7 +31,7 @@ app.UseSwaggerUI(c =>
 
 app.MapGet("/", () => "Hello World!");
 
-// Endpoints;
+// Endpoints - Books;
 
 app.MapGet("/books", async (LivroDb db) => await db.Livros.ToListAsync());
 
@@ -54,7 +54,6 @@ app.MapPut("/books/{id}", async (LivroDb db, Livro updatedbook, int id) =>
     livro.NumCap = updatedbook.NumCap;
     livro.NumPag = updatedbook.NumPag;
     livro.Autor = updatedbook.Autor;
-    livro.Favorito = updatedbook.Favorito;
     await db.SaveChangesAsync();
     return Results.NoContent();
 });
@@ -71,84 +70,63 @@ app.MapDelete("/books/{id}", async (LivroDb db, int id) =>
     return Results.Ok();
 });
 
-app.Run();
-
-/*
-// GET(s)
-app.MapGet("/books", async (LivroDb db) =>
+// Endpoints - Favoritos:
+app.MapPost("/favoritos", async (LivroDb db, Favorito favorito) =>
 {
-    var livros = await db.Livros.ToListAsync();
-    return Results.Ok(livros);
+    await db.Favoritos.AddAsync(favorito);
+    await db.SaveChangesAsync();
+    return Results.Created($"/favorito/{favorito.Email + ", " + favorito.Id_livro}", favorito);
 });
 
-app.MapGet("/books/{id}", async (int id, LivroDb db) =>
+app.MapGet("/favoritos/{email}", async (LivroDb db, string email) =>
 {
-    var livro = await db.Livros.FindAsync(id);
+    var favorito = await db.Favoritos.FirstOrDefaultAsync(f => f.Email == email);
 
-    if (livro != null)
+    if (favorito != null)
     {
-        return Results.Ok(livro);
+        return Results.Ok(favorito); // Retorna o objeto "favorito" encontrado como uma resposta HTTP Ok (200)
     }
     else
     {
-        return Results.NotFound();
+        return Results.NotFound("Nenhum registro corresponde ao e-mail fornecido."); // Retorna uma resposta HTTP Not Found (404)
     }
 });
 
-app.MapGet("/books/by-name/{nome}", async (string nome, LivroDb db) =>
+
+// Endpoints - Usuario:
+
+app.MapGet("/users", async (LivroDb db) => await db.Usuarios.ToListAsync());
+
+app.MapGet("/users/{email}", async (LivroDb db, string email) => await db.Usuarios.FindAsync(email));
+
+app.MapPost("/users", async (LivroDb db, Usuario usuarios) =>
 {
-    var livros = await db.Livros
-        .Where(l => l.Nome == nome)
-        .ToListAsync();
-
-    if (livros.Count > 0)
-    {
-        return Results.Ok(livros);
-    }
-    else
-    {
-        return Results.NotFound();
-    }
-});
-
-// DELETE(s)
-app.MapDelete("/books/{id}", async (int id, LivroDb db) =>
-{
-    if (await db.Livros.FindAsync(id) is Livro livro)
-    {
-        db.Livros.Remove(livro);
-        await db.SaveChangesAsync();
-        return Results.NoContent();
-    }
-
-    return Results.NotFound();
-});
-
-// POST(s)
-app.MapPost("/books", async (Livro livro, LivroDb db) =>
-{
-    db.Livros.Add(livro);
+    await db.Usuarios.AddAsync(usuarios);
     await db.SaveChangesAsync();
-
-    return Results.Created($"/books/{livro.Id}", livro);
+    return Results.Created($"/usuario/{usuarios.Email}", usuarios);
 });
 
-// PUT(s)
-app.MapPut("/books/{id}", async (int id, Livro inputLivro, LivroDb db) =>
+app.MapPut("/users/{email}", async (LivroDb db, Usuario updateduser, string email) =>
 {
-    var livro = await db.Livros.FindAsync(id);
-
-    if (livro is null) return Results.NotFound();
-
-    livro.Nome = inputLivro.Nome;
-    livro.Autor = inputLivro.Autor;
-    livro.Class = inputLivro.Class;
-    livro.Sinopse = inputLivro.Sinopse;
-    livro.NumCap = inputLivro.NumCap;
-    livro.NumPag = inputLivro.NumPag;
-
+    var usuario = await db.Usuarios.FindAsync(email);
+    if (usuario is null) return Results.NotFound();
+    usuario.Nome = updateduser.Nome;
+    usuario.Email = updateduser.Email;
+    usuario.Senha = updateduser.Senha;
     await db.SaveChangesAsync();
-
     return Results.NoContent();
 });
-*/
+
+app.MapDelete("/users/{email}", async (LivroDb db, string email) =>
+{
+    var usuario = await db.Usuarios.FindAsync(email);
+    if (usuario is null)
+    {
+        return Results.NotFound();
+    }
+    db.Usuarios.Remove(usuario);
+    await db.SaveChangesAsync();
+    return Results.Ok();
+});
+
+app.Run();
