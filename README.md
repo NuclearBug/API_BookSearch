@@ -45,11 +45,13 @@ Livros:
 Favoritos:
 <br>
 <br>
-<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/a0ffdaae-4df4-41ae-a4dd-abb48dabad48.png"/>
-<br>
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/07711eed-ffa1-44ca-9e3f-56657dbd59d8.png"/>
 <br>
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/8b3c02b2-774d-4582-8ce9-80a7a9bd6656.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/2c667f84-82a2-4b5c-b865-73f9a2665f48.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/8ff30045-8753-4b98-9841-c399a54cec45.png"/>
 <br>
 <br>
 Usuários:
