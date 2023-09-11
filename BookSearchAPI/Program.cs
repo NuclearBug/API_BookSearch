@@ -92,6 +92,17 @@ app.MapGet("/favoritos/{email}", async (LivroDb db, string email) =>
     }
 });
 
+app.MapDelete("/favoritos/{id_favorito}", async (LivroDb db, int id) =>
+{
+    var favorito = await db.Favoritos.FindAsync(id);
+    if (favorito is null)
+    {
+        return Results.NotFound();
+    }
+    db.Favoritos.Remove(favorito);
+    await db.SaveChangesAsync();
+    return Results.Ok();
+});
 
 // Endpoints - Usuario:
 
