@@ -13,7 +13,9 @@ Descrição das funcionalidades já existentes ou previstas: Mostra dados de tod
 Tema da nova API: Livros (foco em fictícios -  relacionados a série Rick And Morty). 
 
 <br>
-Demonstração dos métodos de requisição:
+Demonstração dos métodos de requisição -
+<br>
+Livros:
 <br>
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/eab1a8a5-080e-4094-bceb-0f105ad80e1a.png"/>
 <br>
@@ -38,9 +40,40 @@ Demonstração dos métodos de requisição:
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/8359a533-ceef-40a9-aace-738aba3f043c.png"/>
 <br>
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/bc7de445-465b-4958-a838-f1a17b1d8ade.png"/>
-
 <br>
-Descrição – Nova API: Api de busca de livros e todos os dados relacionados, assim como sinopse, classificação, número de capítulos, número de páginas, avaliação, etc. 
+<br>
+Favoritos:
+<br>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/a0ffdaae-4df4-41ae-a4dd-abb48dabad48.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/07711eed-ffa1-44ca-9e3f-56657dbd59d8.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/8b3c02b2-774d-4582-8ce9-80a7a9bd6656.png"/>
+<br>
+<br>
+Usuários:
+<br>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/23f47d9a-3277-4b5c-894b-7f94da0a56ea.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/d3dcd9b1-056c-4577-8076-e017cb793a67.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/1fb9f40b-eec1-41c1-98ae-367d4168cebd.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/0f841670-924d-4e3d-9477-6019fac019d.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/b9e5d918-372e-4177-9941-ae60f66fa29f.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/9b6dd63a-6107-49ae-83aa-54be1a9c5d31.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/d401e162-2a73-4538-b74b-2cbf3e3a2a51.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/8bdf581d-43da-4ef5-9915-697b94056efc.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/511c624c-e5e4-43d0-966e-a3632339a206.png"/>
+<br>
+<img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/cbe38adb-f3b2-4fa3-ba23-609c16e284cf.png"/>
 </br>
 </br>
 
