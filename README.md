@@ -15,7 +15,9 @@ Tema da nova API: Livros (foco em fictícios -  relacionados a série Rick And M
 <br>
 Demonstração dos métodos de requisição -
 <br>
+<br>
 Livros:
+<br>
 <br>
 <img src="https://github.com/NuclearBug/API_BookSearch/assets/71195558/eab1a8a5-080e-4094-bceb-0f105ad80e1a.png"/>
 <br>
