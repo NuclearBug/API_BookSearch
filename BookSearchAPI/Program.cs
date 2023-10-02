@@ -8,7 +8,27 @@ builder.Services.AddSqlite<LivroDb>(connectionString);
 
 // builder.Services.AddDbContext<LivroDb>(opt => opt.UseInMemoryDatabase("BookList"));
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddDbContext<LivroDb>(options => options.UseInMemoryDatabase("items"));
+
+// Conexão com o Banco da FreeDb.Tech:
+Env.Load();
+
+string connectDb(){
+    var connectionString = Environment.GetEnvironmetVariable("DATABASE");
+
+    if (connectionString != null){
+        Console.WriteLine("Success");
+        return connectionString;
+    }
+    return builder.Configuration.GetConnectionString("LocalhostConnection") ?? throw new InvalidOperationException("Connect string not found");
+}
+
+var takeString = connectDb();
+
+builder.Services.AddDbContext<LivroDb>(options => 
+    options.UseMySql(takeString, ServerVersion.AutoDetect(takeString))
+);
+// --
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
