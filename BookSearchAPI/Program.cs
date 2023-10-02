@@ -13,13 +13,13 @@ builder.Services.AddEndpointsApiExplorer();
 Env.Load();
 
 string connectDb(){
-    var connectionString = Environment.GetEnvironmetVariable("DATABASE");
+    var connectionString = Environment.GetEnvironmentVariable("DATABASE");
 
     if (connectionString != null){
         Console.WriteLine("Success");
         return connectionString;
     }
-    return builder.Configuration.GetConnectionString("LocalhostConnection") ?? throw new InvalidOperationException("Connect string not found");
+    return builder.Configuration.GetConnectionString("credentials") ?? throw new InvalidOperationException("Connect string not found");
 }
 
 var takeString = connectDb();
